@@ -7,7 +7,7 @@ console.log(document);
 //DOM is nothing but a object
 //and it is a structural representation of our html page
 
-console.log(typeof document);
+console.log(typeof document);//object
 
 //we can manipulate dom using javascript
 //dom has a tree structure
