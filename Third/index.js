@@ -4,7 +4,7 @@
 //variable is nothing but a container to store something
 //var,let and const using these keywords with which we can create variables
 
-var name = 'Rahul';//can use backticks `` and double quotes as well
+var name = 'Rahul';//can use backticks `` and double quotes as well for strings
 var surname= `Golani`;
 console.log(name);
 console.log(surname);

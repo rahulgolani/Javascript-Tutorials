@@ -31,7 +31,7 @@ console.log(window.outerWidth);
 
 //location.reload();//reloads the webpage
 //location.href='https://www.youtube.com'//redirects you to the link
-console.log(location.toString());
+console.log(location.toString());//gives the url of the current page 
 
 /*
 window.history// maintains the history
