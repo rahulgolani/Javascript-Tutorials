@@ -61,5 +61,5 @@ document.querySelector('.container').addEventListener('mousemove',func7);
 function func7(e) {
   console.log(e.offsetX,e.offsetY);
   console.log('You moved your mouse');
-  document.body.style.backgroundColor=`rgb(${e.offsetX},${e.offsetY},${14})`;//here as the mouse moves the backgroundColor will change
+  document.body.style.backgroundColor=`rgb(${e.offsetX},${e.offsetY},${200})`;//here as the mouse moves the backgroundColor will change
 }//rgb values are from 0-255
