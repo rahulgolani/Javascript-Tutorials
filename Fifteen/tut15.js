@@ -1,3 +1,4 @@
+
 /*TRAVERSING THE DOM*/
 
 let cont=document.querySelector('.container');
