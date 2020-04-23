@@ -1,3 +1,4 @@
+
 /*EVENTS AND EVENT OBJECT IN JAVASCRIPT*/
 
 //event is an interaction with the browser may it be a mouse click, mouse hover etc
