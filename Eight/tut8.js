@@ -1,5 +1,6 @@
 /*Conditinal Statements*/
 
+
 let age=29
 
 // = is assignment operator
