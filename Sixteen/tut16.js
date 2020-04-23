@@ -1,3 +1,4 @@
+
 /*Creating, removing and replacing elements*/
 
 let ele=document.createElement('li');//creates a html element
