@@ -1,3 +1,4 @@
+
 /*MORE ON EVENTS*/
 
 //here in the html page we have used a form in which there is a button. when we click the button we are redirected to youtube.com as defined in the form action so we have to bypass the default behaviour using Javascript
