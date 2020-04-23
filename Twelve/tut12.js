@@ -4,6 +4,7 @@
 //but the id for all must be unique
 
 console.log(document);
+
 //DOM is nothing but a object
 //and it is a structural representation of our html page
 
