@@ -1,5 +1,6 @@
 /* Conversion and Coercion*/
 
+
 let age=23
 console.log(age + typeof age);
 //converting into string
