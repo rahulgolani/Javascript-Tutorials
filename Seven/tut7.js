@@ -1,4 +1,4 @@
-/*Arrays*/
+/*Arrays and Objects*/
 
 let num=[1,2,3,4,5]
 const fruits=['apple','banana','grape','guava']
