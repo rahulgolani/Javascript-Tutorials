@@ -4,7 +4,6 @@
 -DOM-DOCUMENT OBJECT MODEL
 -dom object is a part of window
 -window object is a global object in client side javascript
-
 */
 
 console.log(window);//check in browser
@@ -31,7 +30,7 @@ console.log(window.outerWidth);
 
 //location.reload();//reloads the webpage
 //location.href='https://www.youtube.com'//redirects you to the link
-console.log(location.toString());//gives the url of the current page 
+console.log(location.toString());//gives the url of the current page
 
 /*
 window.history// maintains the history
