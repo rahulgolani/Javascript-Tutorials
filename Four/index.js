@@ -1,3 +1,4 @@
+
 /*
 javascript is a dynamically typed language
 
