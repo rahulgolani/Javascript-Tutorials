@@ -12,19 +12,26 @@ index.js is the js file give project path in src
 Console is a powerful tool for debugging [info,alert,warn], for analysing the web page, to check the variables used.
 
 when run console.log in browser it returns undefined.[has not returned anything]
+return type is undefined
 
 can also use console as calculator
 
-
+ALT-R to run the code
 */
 
-console.log(45+5)
-console.log([1,2,3,4,5])
-console.log({name:'Rahul',age:23}) //javascript object
+console.log(45 + 5)
+console.log([1, 2, 3, 4, 5]) //array
+console.log({
+  name: 'Rahul',
+  age: 23
+}) //javascript object
 
-console.table({name:'Rahul',age:23}) // logs the object in tabular form
+console.table({
+  name: 'Rahul',
+  age: 23
+}) // logs the object in tabular form
 
-console.warn('This is warning')//warning
+console.warn('This is warning') //warning
 
 //console.clear()//clears the Console
 
@@ -33,13 +40,13 @@ console.timeEnd('Total') //if you want to check the total time your javascript c
 
 //Assertions
 
-console.assert(566<189,'Age greater than 189 is not possible')
+console.assert(566 < 189, 'Age greater than 189 is not possible')
 //assert come in handy where you want to check for some conditions
-console.error('this is an error');// to throw error
+console.error('this is an error'); // to throw error
 
 //This is a single line comment
 
 /*This is a
 multiline comment
 */
-//console.info('he')
+// console.info('he')
