@@ -11,19 +11,19 @@
 // single element selectors
 
 //1)
-let element=document.getElementById('first')// does not contain 's' in ELEMENT, that is why single
+let element = document.getElementById('first') // does not contain 's' in ELEMENT, that is why single
 console.log(element);
 
-console.log(element.className);//gets the class name of the element
-console.log(element.childNodes);//gets the child nodes
-console.log(element.parentNode);//gets the parent tag
-console.log(element.style.color='red');//can manipulate css from javascript
-console.log(element.style);//can see the possible styles present
+console.log(element.className); //gets the class name of the element
+console.log(element.childNodes); //gets the child nodes
+console.log(element.parentNode); //gets the parent tag
+console.log(element.style.color = 'red'); //can manipulate css from javascript
+console.log(element.style); //can see the possible styles present
 
-//console.log(element.innerText);
-//console.log(element.innerHTML);
+console.log(element.innerText);
+console.log(element.innerHTML);
 //element.innerText='Rahul'
-//element.innerHTML='<b>Rahul Golani</b>';
+// element.innerHTML = '<b>Rahul Golani</b>';
 
 //2) Query Selectors
 
@@ -44,15 +44,16 @@ console.log(element.style);//can see the possible styles present
 //or you can create an array out of it
 
 //chaining
-let ele4=document.getElementsByClassName('container');
+let ele4 = document.getElementsByClassName('container');
+console.log(ele4);
 console.log(ele4[0].getElementsByClassName('child'));
 
-let elems=document.getElementsByTagName('div')//using tag name
+let elems = document.getElementsByTagName('div') //using tag name
 console.log(elems);
 
 //we can also iterate within these elements
 //iterating the elements to make every tag text bold
-elemsArray=Array.from(elems);
-elemsArray.forEach(function(i){
-  i.style.fontWeight="bold"
+elemsArray = Array.from(elems);
+elemsArray.forEach(function(i) {
+  i.style.fontWeight = "bold"
 })
