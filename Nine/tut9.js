@@ -60,20 +60,20 @@ for (let i=0; i<10;i++){
 */
 
 //iterators
-let arr=[1,2,3,4,5];
+let arr = [1, 2, 3, 4, 5];
 //for each loop
 //can use any of the arguments
-arr.forEach(function(element,index,array){
-  console.log(element,index,array);
+arr.forEach(function(element, index, array) {
+  console.log(element, index, array);
 })
 
-let obj={
-  name:'Rahul',
-  age:23,
-  os:'windows'
+let obj = {
+  name: 'Rahul',
+  age: 23,
+  os: 'windows'
 }
 
 //iterator for objects
-for (let key in obj){
+for (let key in obj) {
   console.log(`The ${key} of obj is ${obj[key]}`);
 }
