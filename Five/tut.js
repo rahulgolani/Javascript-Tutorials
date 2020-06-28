@@ -19,6 +19,7 @@ console.log(date);
 console.log(String(date));
 // date = String(date);
 console.log(typeof date);
+//conversion of ny variable is does not change its type permanently unless it is assigned to a new variable.
 
 
 let arr = [1, 2, 3, 4, 5];
@@ -35,6 +36,7 @@ console.log(i.toString()); //does not store i as string
 console.log(typeof i); // will still return type as number
 
 let str = Number('343')
+console.log('here');
 console.log(typeof str); // Number function is used to convert into numbers
 
 str = Number('343d4')
@@ -56,7 +58,7 @@ j = Number(j) //converts into number as it is
 console.log(j, typeof j);
 j = parseInt(j) //converts into integer value
 console.log(j, typeof j);
-j = parseFloat('34.0983') // converts into float value
+j = parseFloat('34.0983') // converts into float value, type will be number
 console.log(j, typeof j);
 
 console.log(j.toFixed(2)); //toFixed is used to restrict the number upto certain decimal points
