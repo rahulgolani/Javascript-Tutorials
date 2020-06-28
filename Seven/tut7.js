@@ -9,6 +9,9 @@ console.log(num, fruits, mixedArr);
 const arr = new Array(23, 24, 'Rahul');
 console.log(arr);
 
+const array2 = new Array(23, 'Rahul', new Array(1, 2, 3));
+console.log(array2);
+
 //array index starts from 0
 console.log(fruits[0]);
 
