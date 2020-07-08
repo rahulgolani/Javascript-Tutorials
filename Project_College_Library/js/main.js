@@ -11,17 +11,48 @@ function Display() {
 
 }
 
+displayBook();
+
 Display.prototype.add = function(book) {
+
+  let bookArr;
+  let bookObj = localStorage.getItem('books');
+  if (bookObj == null) {
+    bookArr = [];
+  } else {
+    bookArr = JSON.parse(bookObj);
+  }
+  bookArr.push(book);
+  localStorage.setItem('books', JSON.stringify(bookArr));
+  displayBook();
+}
+
+// Display.prototype.displayBook = function() {
+function displayBook() {
+  let bookArr;
+  let bookObj = localStorage.getItem('books');
+  if (bookObj == null) {
+    bookArr = [];
+  } else {
+    bookArr = JSON.parse(bookObj);
+  }
   tableBody = document.getElementById('tableBody');
-  let count = document.get
-  let newBook = `
-  <tr>
-    <td>${book.name}</td>
-    <td>${book.author}</td>
-    <td>${book.genre}</td>
-  </tr>
-  `;
-  tableBody.innerHTML += newBook;
+  let booksToDisplay = '';
+  bookArr.forEach(function(element) {
+    booksToDisplay += `
+    <tr>
+      <td>${element.name}</td>
+      <td>${element.author}</td>
+      <td>${element.genre}</td>
+    </tr>
+    `;
+  });
+
+  if (bookArr.length != 0) {
+    tableBody.innerHTML = booksToDisplay;
+  } else {
+    tableBody.innerHTML = '';
+  }
 
 }
 
@@ -96,3 +127,8 @@ function libraryFormSubmit(e) {
 
 
 }
+
+
+//TODO - Store data in localstorage - done
+//  Delete the book
+// Add scrollBar
