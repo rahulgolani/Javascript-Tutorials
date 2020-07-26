@@ -77,3 +77,7 @@ let {
 console.log(model, age, ram);
 
 start();
+
+
+//clock exercise
+//onload="function; setInterval('funtion',1000)"
