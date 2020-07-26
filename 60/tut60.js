@@ -80,4 +80,5 @@ start();
 
 
 //clock exercise
+//in body
 //onload="function; setInterval('funtion',1000)"
